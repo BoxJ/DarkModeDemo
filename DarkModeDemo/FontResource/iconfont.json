@@ -1,0 +1,58 @@
+{
+  "id": "1471159",
+  "name": "BoxDemo",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10206128",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "10206143",
+      "name": "next step",
+      "font_class": "nextstep",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "10312899",
+      "name": "video",
+      "font_class": "video",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "10433709",
+      "name": "circle",
+      "font_class": "circle",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "10433710",
+      "name": "矩形",
+      "font_class": "juxing",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "10433711",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "10433712",
+      "name": "video call",
+      "font_class": "videocall",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    }
+  ]
+}

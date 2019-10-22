@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0393A80F235EC4F800AE40FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A80E235EC4F800AE40FB /* AppDelegate.m */; };
+		0393A815235EC4F800AE40FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A814235EC4F800AE40FB /* ViewController.m */; };
+		0393A818235EC4F800AE40FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0393A816235EC4F800AE40FB /* Main.storyboard */; };
+		0393A81A235EC4F900AE40FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0393A819235EC4F900AE40FB /* Assets.xcassets */; };
+		0393A81D235EC4F900AE40FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0393A81B235EC4F900AE40FB /* LaunchScreen.storyboard */; };
+		0393A820235EC4F900AE40FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A81F235EC4F900AE40FB /* main.m */; };
+		0393A857235F011400AE40FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A855235F011400AE40FB /* SceneDelegate.m */; };
+		0393A86B235F04DE00AE40FB /* UIFont+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A85C235F04DE00AE40FB /* UIFont+extend.m */; };
+		0393A86C235F04DE00AE40FB /* UIColor+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A85D235F04DE00AE40FB /* UIColor+extend.m */; };
+		0393A86D235F04DE00AE40FB /* iconfont.js in Resources */ = {isa = PBXBuildFile; fileRef = 0393A861235F04DE00AE40FB /* iconfont.js */; };
+		0393A86E235F04DE00AE40FB /* demo.css in Resources */ = {isa = PBXBuildFile; fileRef = 0393A862235F04DE00AE40FB /* demo.css */; };
+		0393A86F235F04DE00AE40FB /* iconfont.json in Resources */ = {isa = PBXBuildFile; fileRef = 0393A863235F04DE00AE40FB /* iconfont.json */; };
+		0393A870235F04DE00AE40FB /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 0393A864235F04DE00AE40FB /* iconfont.woff */; };
+		0393A871235F04DE00AE40FB /* iconfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 0393A865235F04DE00AE40FB /* iconfont.eot */; };
+		0393A872235F04DE00AE40FB /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0393A866235F04DE00AE40FB /* iconfont.ttf */; };
+		0393A873235F04DE00AE40FB /* demo_index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0393A867235F04DE00AE40FB /* demo_index.html */; };
+		0393A874235F04DE00AE40FB /* iconfont.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0393A868235F04DE00AE40FB /* iconfont.woff2 */; };
+		0393A875235F04DE00AE40FB /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0393A869235F04DE00AE40FB /* iconfont.svg */; };
+		0393A876235F04DE00AE40FB /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = 0393A86A235F04DE00AE40FB /* iconfont.css */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0393A80A235EC4F800AE40FB /* DarkModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0393A80D235EC4F800AE40FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0393A80E235EC4F800AE40FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0393A813235EC4F800AE40FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0393A814235EC4F800AE40FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0393A817235EC4F800AE40FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0393A819235EC4F900AE40FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0393A81C235EC4F900AE40FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0393A81E235EC4F900AE40FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0393A81F235EC4F900AE40FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0393A855235F011400AE40FB /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0393A856235F011400AE40FB /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0393A85C235F04DE00AE40FB /* UIFont+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+extend.m"; sourceTree = "<group>"; };
+		0393A85D235F04DE00AE40FB /* UIColor+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+extend.m"; sourceTree = "<group>"; };
+		0393A85E235F04DE00AE40FB /* UIFont+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+extend.h"; sourceTree = "<group>"; };
+		0393A85F235F04DE00AE40FB /* UIColor+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+extend.h"; sourceTree = "<group>"; };
+		0393A861235F04DE00AE40FB /* iconfont.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = iconfont.js; sourceTree = "<group>"; };
+		0393A862235F04DE00AE40FB /* demo.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = demo.css; sourceTree = "<group>"; };
+		0393A863235F04DE00AE40FB /* iconfont.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iconfont.json; sourceTree = "<group>"; };
+		0393A864235F04DE00AE40FB /* iconfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff; sourceTree = "<group>"; };
+		0393A865235F04DE00AE40FB /* iconfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.eot; sourceTree = "<group>"; };
+		0393A866235F04DE00AE40FB /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		0393A867235F04DE00AE40FB /* demo_index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo_index.html; sourceTree = "<group>"; };
+		0393A868235F04DE00AE40FB /* iconfont.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff2; sourceTree = "<group>"; };
+		0393A869235F04DE00AE40FB /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
+		0393A86A235F04DE00AE40FB /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0393A807235EC4F800AE40FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0393A801235EC4F800AE40FB = {
+			isa = PBXGroup;
+			children = (
+				0393A80C235EC4F800AE40FB /* DarkModeDemo */,
+				0393A80B235EC4F800AE40FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0393A80B235EC4F800AE40FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0393A80A235EC4F800AE40FB /* DarkModeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0393A80C235EC4F800AE40FB /* DarkModeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0393A85B235F04DE00AE40FB /* BoxCategory */,
+				0393A860235F04DE00AE40FB /* FontResource */,
+				0393A80D235EC4F800AE40FB /* AppDelegate.h */,
+				0393A80E235EC4F800AE40FB /* AppDelegate.m */,
+				0393A813235EC4F800AE40FB /* ViewController.h */,
+				0393A814235EC4F800AE40FB /* ViewController.m */,
+				0393A856235F011400AE40FB /* SceneDelegate.h */,
+				0393A855235F011400AE40FB /* SceneDelegate.m */,
+				0393A816235EC4F800AE40FB /* Main.storyboard */,
+				0393A819235EC4F900AE40FB /* Assets.xcassets */,
+				0393A81B235EC4F900AE40FB /* LaunchScreen.storyboard */,
+				0393A81E235EC4F900AE40FB /* Info.plist */,
+				0393A81F235EC4F900AE40FB /* main.m */,
+			);
+			path = DarkModeDemo;
+			sourceTree = "<group>";
+		};
+		0393A85B235F04DE00AE40FB /* BoxCategory */ = {
+			isa = PBXGroup;
+			children = (
+				0393A85C235F04DE00AE40FB /* UIFont+extend.m */,
+				0393A85D235F04DE00AE40FB /* UIColor+extend.m */,
+				0393A85E235F04DE00AE40FB /* UIFont+extend.h */,
+				0393A85F235F04DE00AE40FB /* UIColor+extend.h */,
+			);
+			path = BoxCategory;
+			sourceTree = "<group>";
+		};
+		0393A860235F04DE00AE40FB /* FontResource */ = {
+			isa = PBXGroup;
+			children = (
+				0393A861235F04DE00AE40FB /* iconfont.js */,
+				0393A862235F04DE00AE40FB /* demo.css */,
+				0393A863235F04DE00AE40FB /* iconfont.json */,
+				0393A864235F04DE00AE40FB /* iconfont.woff */,
+				0393A865235F04DE00AE40FB /* iconfont.eot */,
+				0393A866235F04DE00AE40FB /* iconfont.ttf */,
+				0393A867235F04DE00AE40FB /* demo_index.html */,
+				0393A868235F04DE00AE40FB /* iconfont.woff2 */,
+				0393A869235F04DE00AE40FB /* iconfont.svg */,
+				0393A86A235F04DE00AE40FB /* iconfont.css */,
+			);
+			path = FontResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0393A809235EC4F800AE40FB /* DarkModeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0393A823235EC4F900AE40FB /* Build configuration list for PBXNativeTarget "DarkModeDemo" */;
+			buildPhases = (
+				0393A806235EC4F800AE40FB /* Sources */,
+				0393A807235EC4F800AE40FB /* Frameworks */,
+				0393A808235EC4F800AE40FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkModeDemo;
+			productName = DarkModeDemo;
+			productReference = 0393A80A235EC4F800AE40FB /* DarkModeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0393A802235EC4F800AE40FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = BoxJing;
+				TargetAttributes = {
+					0393A809235EC4F800AE40FB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 0393A805235EC4F800AE40FB /* Build configuration list for PBXProject "DarkModeDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0393A801235EC4F800AE40FB;
+			productRefGroup = 0393A80B235EC4F800AE40FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0393A809235EC4F800AE40FB /* DarkModeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0393A808235EC4F800AE40FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0393A81D235EC4F900AE40FB /* LaunchScreen.storyboard in Resources */,
+				0393A86E235F04DE00AE40FB /* demo.css in Resources */,
+				0393A874235F04DE00AE40FB /* iconfont.woff2 in Resources */,
+				0393A872235F04DE00AE40FB /* iconfont.ttf in Resources */,
+				0393A871235F04DE00AE40FB /* iconfont.eot in Resources */,
+				0393A81A235EC4F900AE40FB /* Assets.xcassets in Resources */,
+				0393A870235F04DE00AE40FB /* iconfont.woff in Resources */,
+				0393A873235F04DE00AE40FB /* demo_index.html in Resources */,
+				0393A876235F04DE00AE40FB /* iconfont.css in Resources */,
+				0393A86D235F04DE00AE40FB /* iconfont.js in Resources */,
+				0393A818235EC4F800AE40FB /* Main.storyboard in Resources */,
+				0393A875235F04DE00AE40FB /* iconfont.svg in Resources */,
+				0393A86F235F04DE00AE40FB /* iconfont.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0393A806235EC4F800AE40FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0393A857235F011400AE40FB /* SceneDelegate.m in Sources */,
+				0393A86B235F04DE00AE40FB /* UIFont+extend.m in Sources */,
+				0393A815235EC4F800AE40FB /* ViewController.m in Sources */,
+				0393A80F235EC4F800AE40FB /* AppDelegate.m in Sources */,
+				0393A820235EC4F900AE40FB /* main.m in Sources */,
+				0393A86C235F04DE00AE40FB /* UIColor+extend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0393A816235EC4F800AE40FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0393A817235EC4F800AE40FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0393A81B235EC4F900AE40FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0393A81C235EC4F900AE40FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0393A821235EC4F900AE40FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0393A822235EC4F900AE40FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0393A824235EC4F900AE40FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29YYWKK394;
+				INFOPLIST_FILE = DarkModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.fotoplace.DarkModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0393A825235EC4F900AE40FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29YYWKK394;
+				INFOPLIST_FILE = DarkModeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cc.fotoplace.DarkModeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0393A805235EC4F800AE40FB /* Build configuration list for PBXProject "DarkModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0393A821235EC4F900AE40FB /* Debug */,
+				0393A822235EC4F900AE40FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0393A823235EC4F900AE40FB /* Build configuration list for PBXNativeTarget "DarkModeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0393A824235EC4F900AE40FB /* Debug */,
+				0393A825235EC4F900AE40FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0393A802235EC4F800AE40FB /* Project object */;
+}
