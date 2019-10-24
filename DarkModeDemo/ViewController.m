@@ -62,20 +62,17 @@
     [button setTitleColor:[UIColor colorWithDarkModeColor:[UIColor lightGrayColor] normalColor:[UIColor redColor]] forState:UIControlStateNormal];
     [self.view addSubview:button];
     
-    UIImageView *imgViewSvg=[[UIImageView alloc] initWithImage:[UIImage svgImageNamed:@"boxsvg" size:CGSizeMake(80.0, 80.0) tintColor:[UIColor colorWithDarkModeColor:[UIColor lightGrayColor] normalColor:[UIColor redColor]]]];
+    UIImageView *imgViewSvg=[[UIImageView alloc] initWithImage:[UIImage svgImageNamed:@"boxsvg" size:CGSizeMake(80.0, 80.0) tintColor:UIColor.redColor]];
     imgViewSvg.frame=CGRectMake(80.0, 500.0, 80.0, 80.0);
     [self.view addSubview:imgViewSvg];
     
-    UIImageView *imgViewSvg2=[[UIImageView alloc] initWithImage:[UIImage svgImageNamed:@"boxsvg" size:CGSizeMake(120.0, 120.0) tintColor:[UIColor colorWithDarkModeColor:[UIColor grayColor] normalColor:[UIColor blueColor]]]];
+    UIImageView *imgViewSvg2=[[UIImageView alloc] initWithImage:[UIImage svgImageNamed:@"boxsvg" size:CGSizeMake(120.0, 120.0) tintColor:UIColor.blueColor]];
     imgViewSvg2.backgroundColor=[UIColor blackColor];
     imgViewSvg2.frame=CGRectMake(180.0, 500.0, 120.0, 120.0);
     [self.view addSubview:imgViewSvg2];
     
-    SVGKImage *img = [SVGKImage imageNamed:@"boxsvg"];
-    SVGKImageView *imgV = [[SVGKFastImageView alloc] initWithSVGKImage:img];
+    SVGKImageView *imgV = [[SVGKFastImageView alloc] initWithSVGKImage:[SVGKImage imageNamed:@"boxsvg"]];
     imgV.frame=CGRectMake(0.0, 600.0, 60.0, 60.0);
-    imgV.tintColor=[UIColor redColor];
-//    imgV.image = img;
     [self.view addSubview:imgV];
     
 }
