@@ -121,10 +121,10 @@
 			children = (
 				033D1DC92361ACBF001CBE13 /* UIImage+extend.h */,
 				033D1DCA2361ACBF001CBE13 /* UIImage+extend.m */,
-				0393A85C235F04DE00AE40FB /* UIFont+extend.m */,
-				0393A85D235F04DE00AE40FB /* UIColor+extend.m */,
 				0393A85E235F04DE00AE40FB /* UIFont+extend.h */,
+				0393A85C235F04DE00AE40FB /* UIFont+extend.m */,
 				0393A85F235F04DE00AE40FB /* UIColor+extend.h */,
+				0393A85D235F04DE00AE40FB /* UIColor+extend.m */,
 			);
 			path = BoxCategory;
 			sourceTree = "<group>";

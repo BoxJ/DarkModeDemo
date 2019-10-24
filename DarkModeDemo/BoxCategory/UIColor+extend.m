@@ -12,15 +12,18 @@
 +(UIColor *)colorWithDarkModeColor:(UIColor *)darkColor normalColor:(UIColor *)color
 {
     if (@available(iOS 13.0,*)) {
-        UIColor *dyColor = [UIColor colorWithDynamicProvider:^UIColor * _Nonnull(UITraitCollection * _Nonnull trainCollection) {
-            if ([trainCollection userInterfaceStyle] == UIUserInterfaceStyleDark) {
-                return darkColor;
-            }
-            else {
-                return color;
-            }
-        }];
-        return dyColor;
+        if (darkColor) {
+            UIColor *dyColor = [UIColor colorWithDynamicProvider:^UIColor * _Nonnull(UITraitCollection * _Nonnull trainCollection) {
+                if ([trainCollection userInterfaceStyle] == UIUserInterfaceStyleDark) {
+                    return darkColor;
+                }
+                else {
+                    return color;
+                }
+            }];
+            return dyColor;
+        }
+        return color;
     }
     return color;
 }
