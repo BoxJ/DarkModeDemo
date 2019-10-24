@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033D1DC82361AB90001CBE13 /* boxsvg.svg in Resources */ = {isa = PBXBuildFile; fileRef = 033D1DC72361AB90001CBE13 /* boxsvg.svg */; };
+		033D1DCB2361ACBF001CBE13 /* UIImage+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 033D1DCA2361ACBF001CBE13 /* UIImage+extend.m */; };
 		0393A80F235EC4F800AE40FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A80E235EC4F800AE40FB /* AppDelegate.m */; };
 		0393A815235EC4F800AE40FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0393A814235EC4F800AE40FB /* ViewController.m */; };
 		0393A818235EC4F800AE40FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0393A816235EC4F800AE40FB /* Main.storyboard */; };
@@ -26,9 +28,13 @@
 		0393A874235F04DE00AE40FB /* iconfont.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 0393A868235F04DE00AE40FB /* iconfont.woff2 */; };
 		0393A875235F04DE00AE40FB /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0393A869235F04DE00AE40FB /* iconfont.svg */; };
 		0393A876235F04DE00AE40FB /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = 0393A86A235F04DE00AE40FB /* iconfont.css */; };
+		E7452A42FF80F33E3FF59EF6 /* libPods-DarkModeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C258E98E93D711F246416D /* libPods-DarkModeDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033D1DC72361AB90001CBE13 /* boxsvg.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = boxsvg.svg; sourceTree = "<group>"; };
+		033D1DC92361ACBF001CBE13 /* UIImage+extend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+extend.h"; sourceTree = "<group>"; };
+		033D1DCA2361ACBF001CBE13 /* UIImage+extend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+extend.m"; sourceTree = "<group>"; };
 		0393A80A235EC4F800AE40FB /* DarkModeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkModeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0393A80D235EC4F800AE40FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0393A80E235EC4F800AE40FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,6 +61,9 @@
 		0393A868235F04DE00AE40FB /* iconfont.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff2; sourceTree = "<group>"; };
 		0393A869235F04DE00AE40FB /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
 		0393A86A235F04DE00AE40FB /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+		2E00640A4E4E500F141561AB /* Pods-DarkModeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkModeDemo.release.xcconfig"; path = "Target Support Files/Pods-DarkModeDemo/Pods-DarkModeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7E8C7BF22BFB7DC89A087D5C /* Pods-DarkModeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DarkModeDemo.debug.xcconfig"; path = "Target Support Files/Pods-DarkModeDemo/Pods-DarkModeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C258E98E93D711F246416D /* libPods-DarkModeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DarkModeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7452A42FF80F33E3FF59EF6 /* libPods-DarkModeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +83,8 @@
 			children = (
 				0393A80C235EC4F800AE40FB /* DarkModeDemo */,
 				0393A80B235EC4F800AE40FB /* Products */,
+				EEB14B9783868A2E853D9D4A /* Pods */,
+				9F6A92E1FEEDEE36E91E04C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +119,8 @@
 		0393A85B235F04DE00AE40FB /* BoxCategory */ = {
 			isa = PBXGroup;
 			children = (
+				033D1DC92361ACBF001CBE13 /* UIImage+extend.h */,
+				033D1DCA2361ACBF001CBE13 /* UIImage+extend.m */,
 				0393A85C235F04DE00AE40FB /* UIFont+extend.m */,
 				0393A85D235F04DE00AE40FB /* UIColor+extend.m */,
 				0393A85E235F04DE00AE40FB /* UIFont+extend.h */,
@@ -128,8 +142,26 @@
 				0393A868235F04DE00AE40FB /* iconfont.woff2 */,
 				0393A869235F04DE00AE40FB /* iconfont.svg */,
 				0393A86A235F04DE00AE40FB /* iconfont.css */,
+				033D1DC72361AB90001CBE13 /* boxsvg.svg */,
 			);
 			path = FontResource;
+			sourceTree = "<group>";
+		};
+		9F6A92E1FEEDEE36E91E04C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C258E98E93D711F246416D /* libPods-DarkModeDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB14B9783868A2E853D9D4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E8C7BF22BFB7DC89A087D5C /* Pods-DarkModeDemo.debug.xcconfig */,
+				2E00640A4E4E500F141561AB /* Pods-DarkModeDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0393A823235EC4F900AE40FB /* Build configuration list for PBXNativeTarget "DarkModeDemo" */;
 			buildPhases = (
+				1331203318C1CA746324B59A /* [CP] Check Pods Manifest.lock */,
 				0393A806235EC4F800AE40FB /* Sources */,
 				0393A807235EC4F800AE40FB /* Frameworks */,
 				0393A808235EC4F800AE40FB /* Resources */,
@@ -192,6 +225,7 @@
 				0393A81D235EC4F900AE40FB /* LaunchScreen.storyboard in Resources */,
 				0393A86E235F04DE00AE40FB /* demo.css in Resources */,
 				0393A874235F04DE00AE40FB /* iconfont.woff2 in Resources */,
+				033D1DC82361AB90001CBE13 /* boxsvg.svg in Resources */,
 				0393A872235F04DE00AE40FB /* iconfont.ttf in Resources */,
 				0393A871235F04DE00AE40FB /* iconfont.eot in Resources */,
 				0393A81A235EC4F900AE40FB /* Assets.xcassets in Resources */,
@@ -207,6 +241,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1331203318C1CA746324B59A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DarkModeDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0393A806235EC4F800AE40FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -214,6 +273,7 @@
 			files = (
 				0393A857235F011400AE40FB /* SceneDelegate.m in Sources */,
 				0393A86B235F04DE00AE40FB /* UIFont+extend.m in Sources */,
+				033D1DCB2361ACBF001CBE13 /* UIImage+extend.m in Sources */,
 				0393A815235EC4F800AE40FB /* ViewController.m in Sources */,
 				0393A80F235EC4F800AE40FB /* AppDelegate.m in Sources */,
 				0393A820235EC4F900AE40FB /* main.m in Sources */,
@@ -355,6 +415,7 @@
 		};
 		0393A824235EC4F900AE40FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8C7BF22BFB7DC89A087D5C /* Pods-DarkModeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -372,6 +433,7 @@
 		};
 		0393A825235EC4F900AE40FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E00640A4E4E500F141561AB /* Pods-DarkModeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
